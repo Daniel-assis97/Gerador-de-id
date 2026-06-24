@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <p class="card-title">Gerador de Crachá Online</p>
+
+        <div class="form-group">
+
+        <label for="inputNome">Informe o nome completo Do funcionário:</label>
+        <input type="text" id="inputNome">
+
+        <button type="button" id="btnprimary">Gerar Crachá</button>
+
+        </div>
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="NameTH" >Nome</th>
+                        <th class="CrachaTH" >Crachá</th>
+                        <th class="ActionTH"></th> </tr>
+                    </tr>
+                </thead>
+                <tbody id="result">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
